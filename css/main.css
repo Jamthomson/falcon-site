@@ -1,0 +1,71 @@
+/*
+CSS for Falcon-Site
+*/
+
+body{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	background-color: #f2c761;
+	line-height: 125%;
+	padding: 15px;
+}
+
+#header{
+	width: 425px;
+}
+
+#navigation ul{
+	list-style-type: none;
+	width: 480px;
+	padding: 0;
+	margin: auto 0;
+	overflow: hidden;
+}
+
+#navigation li{
+	width: 120px;
+	float: left;
+}
+
+#navigation a{
+	text-decoration: none;
+	color: #304969;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: left; 
+}
+
+ul{
+	list-style-type: none;
+}
+
+#header{
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	font-size: large;
+}
+
+#tagline p{
+	font-size: large;
+	color: #682412;
+	font-weight: bold;
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	line-height: 8%;
+}
+
+ol li{
+	font-size: large;
+	color: black;
+	font-family: "Elsie", cursive;
+}
+
+p{
+	font-size: large;
+	color: #304969;
+	font-family: "Elsie", cursive;
+}
+
+.fun{
+	color: #ce4c31;
+	font-family: Georgia, Times, serif;
+	letter-spacing: 0.05em;
+}
