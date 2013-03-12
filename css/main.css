@@ -11,22 +11,52 @@ body{
 	margin: 0 auto;
 }
 
-#header{
-	width: 970px;
+p{
+	font-size: large;
+	color: #304969;
+	font-family: "Elsie", cursive;
+	padding: 10px;
+	letter-spacing: 0.05em;
+}
+
+
+h1, h2{
+	background-color: rgba(48, 73, 105, 0.80);
 	padding: 15px;
 }
 
-h1, h2{
-background-color: rgba(48, 73, 105, 0.80);
-padding: 15px;
+h2,h3{
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	font-size: x-large;
+	padding: 15px;
+	width: 970px;
 }
 
-h2,h3{
-font-family: "Gabriela", Helvetica, Arial, sans-serif;
-font-size: x-large;
-padding: 15px;
-width: 970px;
+section img{
+	margin-bottom: 10px;
+	border: 5px solid black;
 }
+
+ol li{
+	font-size: large;
+	color: black;
+	font-family: "Elsie", cursive;
+	padding: 10px;
+}
+
+ol img{
+	border: 10px inset #999;
+	box-shadow: 10px 10px 10px #666;
+
+}
+
+.fun{
+	color: #ce4c31;
+	font-family: Georgia, Times, serif;
+	letter-spacing: 0.05em;
+}
+
+
 
 /*-------------------Navigation-----------------*/
 
@@ -90,10 +120,6 @@ width: 970px;
 	
 }
 
-#photogallery a:link{
-color: none;
-}
-
 #photogallery a:visited{
 	border-color: navy;
 }
@@ -105,6 +131,8 @@ color: none;
 #photogallery a:active{
 	border-color: orange;
 }
+
+/*-------------Div ID's--------------*/
 
 #header{
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
@@ -121,30 +149,12 @@ color: none;
 	text-shadow: 2px 4px 2px #682412;
 }
 
-ol li{
-	font-size: large;
-	color: black;
-	font-family: "Elsie", cursive;
-	padding: 10px;
+#header{
+	width: 970px;
+	padding: 15px;
+	text-decoration: none;
 }
 
-ol img{
-	border: 10px inset #999;
-	box-shadow: 10px 10px 10px #666;
 
-}
 
-p{
-	font-size: large;
-	color: #304969;
-	font-family: "Elsie", cursive;
-	padding: 10px;
-	letter-spacing: 0.05em;
-}
-
-.fun{
-	color: #ce4c31;
-	font-family: Georgia, Times, serif;
-	letter-spacing: 0.05em;
-}
 
