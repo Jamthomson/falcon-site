@@ -7,10 +7,12 @@ body{
 	background-color: #f2c761;
 	line-height: 125%;
 	padding: 15px;
+	width: 950px;
+	margin: 0 auto;
 }
 
 #header{
-	width: 1000px;
+	width: 970px;
 	padding: 15px;
 }
 
@@ -23,8 +25,10 @@ h2,h3{
 font-family: "Gabriela", Helvetica, Arial, sans-serif;
 font-size: x-large;
 padding: 15px;
-width: 1000px;
+width: 970px;
 }
+
+/*-------------------Navigation-----------------*/
 
 #navigation ul{
 	list-style-type: none;
@@ -48,8 +52,58 @@ width: 1000px;
 	text-align: left; 
 }
 
-#photogallery li{
+#navigation a:visited{
+	color: navy;
+}
+
+#navigation a:hover{
+	color: orange;
+}
+
+#navigation a:active{
+	color: olive;
+}
+
+/*-------------------Photo Gallery--------------*/
+
+#photogallery ul{
 	list-style-type: none;
+	width: 600px;
+	margin: 20px auto;
+	overflow: hidden;
+	padding: 10px;
+}
+
+#photogallery li{
+	float: left;
+	margin-left: 25px;
+}
+
+#photogallery a{
+	border: 10px ridge #fff;
+	display: block;
+	height: 80px;
+	width: 100px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666;
+	outline: 0;
+	
+}
+
+#photogallery a:link{
+color: none;
+}
+
+#photogallery a:visited{
+	border-color: navy;
+}
+
+#photogallery a:hover{
+	border-color: olive;
+}
+
+#photogallery a:active{
+	border-color: orange;
 }
 
 #header{
@@ -74,6 +128,12 @@ ol li{
 	padding: 10px;
 }
 
+ol img{
+	border: 10px inset #999;
+	box-shadow: 10px 10px 10px #666;
+
+}
+
 p{
 	font-size: large;
 	color: #304969;
@@ -87,3 +147,4 @@ p{
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.05em;
 }
+
