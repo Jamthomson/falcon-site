@@ -4,17 +4,19 @@ CSS for Falcon-Site
 
 body{
 	font-family: Verdana, Helvetica, Arial, sans-serif;
-	background-color: #f2c761;
+	background-color: #ddbf87;
+	background-image: url(../images/gradient.jpg);
 	line-height: 125%;
 	padding: 15px;
 	width: 950px;
 	margin: 0 auto;
+
 }
 
 p{
+	font-family: "Elsie", cursive;
 	font-size: large;
 	color: #304969;
-	font-family: "Elsie", cursive;
 	padding: 10px;
 	letter-spacing: 0.05em;
 }
@@ -23,6 +25,7 @@ p{
 h1, h2{
 	background-color: rgba(48, 73, 105, 0.80);
 	padding: 15px;
+	background-image: url(../images/background1.jpg);
 }
 
 h2,h3{
@@ -32,9 +35,15 @@ h2,h3{
 	width: 970px;
 }
 
+/*----------------Section and List Styles----------------*/
+
 section img{
 	margin-bottom: 10px;
 	border: 5px solid black;
+}
+
+section{
+-moz-column-count: 3;
 }
 
 ol li{
@@ -152,7 +161,10 @@ ol img{
 #header{
 	width: 970px;
 	padding: 15px;
-	text-decoration: none;
+}
+
+#cta{
+background-color: olive;
 }
 
 
