@@ -169,15 +169,14 @@ ol img{
 #cta{
 background-color: olive;
 margin-bottom: 20px;
-<style type="text/css">
 }
 
 /* button 
 ---------------------------------------------- */
-.button {
+/*.button {
 	display: inline-block;
 	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
-	*display: inline;
+	/*display: inline;
 	vertical-align: baseline;
 	margin: 0 2px;
 	outline: none;
@@ -217,7 +216,7 @@ margin-bottom: 20px;
 }
 
 /* orange */
-.orange {
+/*.orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
 	background: #f78d1d;
@@ -236,7 +235,7 @@ margin-bottom: 20px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
-}
+}*/
 
 
 
