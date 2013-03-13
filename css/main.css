@@ -150,6 +150,8 @@ ol img{
 #header{
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
 	font-size: large;
+	width: 970px;
+	padding: 15px;
 }
 
 #tagline p{
@@ -162,13 +164,11 @@ ol img{
 	text-shadow: 2px 4px 2px #682412;
 }
 
-#header{
-	width: 970px;
-	padding: 15px;
-}
+/*-------------------Call to Action Area-------------------*/
 
 #cta{
 background-color: olive;
+margin-bottom: 20px;
 <style type="text/css">
 }
 
