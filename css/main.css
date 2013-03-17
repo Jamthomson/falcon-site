@@ -3,10 +3,9 @@ CSS for Falcon-Site
 */
 
 body{
-	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font: 100%/125% Verdana, Helvetica, Arial, sans-serif;
 	background-color: #ddbf87;
 	background-image: url(../images/gradient.jpg);
-	line-height: 125%;
 	padding: 15px;
 	width: 950px;
 	margin: 0 auto;
@@ -14,8 +13,8 @@ body{
 }
 
 p{
+	font-size: 19px;
 	font-family: "Elsie", cursive;
-	font-size: large;
 	color: #304969;
 	padding: 10px;
 	letter-spacing: 0.05em;
@@ -28,9 +27,16 @@ h1, h2{
 	background-image: url(../images/background1.jpg);
 }
 
-h2,h3{
+h2{
+	font-size: 30px;
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	font-size: x-large;
+	padding: 15px;
+	width: 970px;
+}
+
+h3{
+	font-size: 20px;
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
 	padding: 15px;
 	width: 970px;
 }
@@ -51,9 +57,9 @@ margin-top: 10px;
 }
 
 ol li{
-	font-size: large;
-	color: black;
+	font-size: 19px;
 	font-family: "Elsie", cursive;
+	color: black;
 	padding: 10px;
 }
 
@@ -150,13 +156,13 @@ ol img{
 
 #header{
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	font-size: large;
+	font-size: 24px;
 	width: 970px;
 	padding: 15px;
 }
 
 #tagline p{
-	font-size: x-large;
+	font-size: 24px;
 	color: #682412;
 	font-weight: bold;
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
