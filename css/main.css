@@ -7,8 +7,8 @@ body{
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	background-color: #ddbf87;
 	background-image: url(../images/gradient.jpg);
-	padding: 15px;
-	width: 960px;
+	padding: 1.5625%; /*15px/960*/
+	max-width: 960px;
 	margin: 0 auto;
 
 }
@@ -17,35 +17,33 @@ p{
 	font-size: 1.1875em; /*19px*/
 	font-family: "Elsie", cursive;
 	color: #304969;
-	padding: 10px;
+	padding: 1.041667%; /*10px/960*/
 	letter-spacing: 0.05em;
 }
 
 
 h1, h2{
 	background-color: rgba(48, 73, 105, 0.80);
-	padding: 15px;
+	padding: 1.5625%; /*15px/960*/
 	background-image: url(../images/background1.jpg);
 }
 
 h2{
 	font-size: 1.875em; /*30px*/
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	padding: 15px;
-	width: 970px;
+	padding: 1.5625%; /*15px/960*/
 }
 
 h3{
 	font-size: 1.25em; /*20px*/
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	padding: 15px;
-	width: 970px;
+	padding: 1.5625%; /*15px/960*/
 }
 
 /*----------------Section and List Styles----------------*/
 
 section img{
-	margin-bottom: 10px;
+	margin-bottom: 1.041667%; /*10px/960*/
 	border: 5px solid black;
 }
 
@@ -54,14 +52,14 @@ section{
 }
 
 #home{
-margin-top: 10px;
+margin-top: 1.04667%; /*10px/960*/
 }
 
 ol li{
 	font-size: 1.1875em; /*19px*/
 	font-family: "Elsie", cursive;
 	color: black;
-	padding: 10px;
+	padding: 1.04667%; /*10px/960*/
 }
 
 ol img{
@@ -82,14 +80,14 @@ ol img{
 
 #navigation ul{
 	list-style-type: none;
-	width: 480px;
-	padding: 15px;
+	width: 50%; /*480px/960*/
+	padding: 3.125%; /*15px/480*/
 	margin: 0 auto;
 	overflow: hidden;
 }
 
 #navigation li{
-	width: 120px;
+	width: 25%; /*120px/480*/
 	float: left;
 }
 
@@ -97,7 +95,7 @@ ol img{
 	text-decoration: none;
 	color: #304969;
 	display: block;
-	height: 30px;
+	height: 6.25%; /*30px/480*/
 	line-height: 30px;
 	text-align: center;
 	border: 5px groove olive;
@@ -119,15 +117,15 @@ ol img{
 
 #photogallery ul{
 	list-style-type: none;
-	width: 600px;
-	margin: 20px auto;
+	width: 62.5%; /*600px/960*/
+	margin: 2.083333% auto; /*20px/960*/
 	overflow: hidden;
-	padding: 10px;
+	padding: 1.666667%; /*10px/600*/
 }
 
 #photogallery li{
 	float: left;
-	margin-left: 25px;
+	margin-left: 2.604167%; /*25px/960*/
 }
 
 #photogallery a{
@@ -158,8 +156,8 @@ ol img{
 #header{
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
 	font-size: 1.5em; /*24px*/
-	width: 970px;
-	padding: 15px;
+	/*width: 93.75%; /*900px/960*/
+	padding: 1.5626%; /*15px/960*/
 }
 
 #tagline p{
@@ -168,14 +166,14 @@ ol img{
 	font-weight: bold;
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
 	line-height: 8%;
-	padding: 15px;
+	padding: 1.5625%; /*15px/960*/
 	text-shadow: 2px 4px 2px #682412;
 }
 
 #wrapper{
-width: 970px;
-margin: 0 auto;
-overflow: hidden;
+	width: 100%; /*960px*/
+	margin: 0 auto;
+	overflow: hidden;
 }
 
 /*-------------------Call to Action Area-------------------*/
