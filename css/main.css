@@ -10,7 +10,6 @@ body{
 	padding: 1.5625%; /*15px/960*/
 	max-width: 960px;
 	margin: 0 auto;
-
 }
 
 p{
@@ -31,8 +30,7 @@ h1, h2{
 h2{
 	font-size: 1.875em; /*30px*/
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	padding: 1.5625%; /*15px/960*/
-	
+	padding: 1.5625%; /*15px/960*/	
 }
 
 h3{
@@ -66,14 +64,22 @@ ol li{
 ol img{
 	border: 10px inset #999;
 	box-shadow: 10px 10px 10px #666;
-	
-
 }
 
 .fun{
 	color: #ce4c31;
 	font-family: Georgia, Times, serif;
 	letter-spacing: 0.05em;
+}
+
+.tagline{
+	font-size: 24px;
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #682412;
+	line-height: 8%;
+	padding: 1.5625%; /*15px/960*/
+	text-shadow: 2px 4px 2px #682412;
 }
 
 
@@ -137,8 +143,7 @@ ol img{
 	width: 100px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #666;
-	outline: 0;
-	
+	outline: 0;	
 }
 
 #photogallery a:visited{
@@ -166,16 +171,6 @@ max-width: 100%;
 	padding: 1.5626%; /*15px/960*/
 }
 
-.tagline{
-	font-size: 24px;
-	font-family: "Gabriela", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	color: #682412;
-	line-height: 8%;
-	padding: 1.5625%; /*15px/960*/
-	text-shadow: 2px 4px 2px #682412;
-}
-
 #wrapper{
 	width: 100%; /*960px*/
 	margin: 0 auto;
@@ -190,8 +185,7 @@ max-width: 100%;
 	height: 200px;
 }
 
-/* button 
-         ---------------------------------------------- */
+/* -------------------------Button------------------------------ */
 .button {
 	display: inline-block;
 	display: inline;
@@ -233,7 +227,7 @@ max-width: 100%;
 	padding: .2em 1em .275em;
 }
 
-/* orange */
+/*--------------------Button Color Orange-----------------------*/
 .orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
@@ -278,10 +272,10 @@ max-width: 100%;
 	/*#wrapper{background-color: #d593ff;}*/
 	#navigation li{ width: 100%; float: none;}
 	#cta{ margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
-	#map img{margin-left: /520833%; /*5px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	#map img{margin-left: .520833%; /*5px/960*/ margin-right: 10.41667%; /*10px/960*/}
 	#home{margin-left: 10.41667%; /*10px/960*/}
 	ol img{ float: right;}
-	ol img{margin-top: 10.41667%; /*10px/960*/ margin-bottom: 3.125%; /*30px/960*/ 10.41667%; /*10px/960*/}
+	ol img{margin-top: 10.41667%; /*10px/960*/ margin-bottom: 3.125%; /*30px/960*/ margin-right: 10px;} 
 	ol li{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
 	.tagline{display: none;}
 	section{-moz-column-count: 1; margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
