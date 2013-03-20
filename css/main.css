@@ -32,6 +32,7 @@ h2{
 	font-size: 1.875em; /*30px*/
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
 	padding: 1.5625%; /*15px/960*/
+	
 }
 
 h3{
@@ -133,7 +134,7 @@ ol img{
 	border: 10px ridge #fff;
 	display: block;
 	height: 80px;
-	width: 100px
+	width: 100px;
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #666;
 	outline: 0;
@@ -251,28 +252,41 @@ max-width: 100%;
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 }
 
+/*---------------------------Media Queries------------------------------------*/
+
 /*Tablet Portrait size to standard 960 (devices and browsers)*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
+	/*#wrapper{background-color: #509cff;}*/
+	#map img{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	#home{margin-left: 10.41667%; /*10px/960*/}
+	footer{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	h3{margin-left: 10.41667%; /*10px/960*/}
 }
 
 /*Mobile Landscape Size to Tablet Portrait (device and browsers)*/
 @media only screen and (min-width: 545px) and (max-width: 767px){
-	#wrapper{background-color: #ff7743;}
+	/*#wrapper{background-color: #ff7743;}*/
+	#map img{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	#home{margin-left: 10px;}
+	section{-moz-column-count: 1; margin-left: 10.41667%; /*10px/960*/; margin-right: 10.41667%; /*10px/960*/}
+	footer{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	h3{margin-left: 10.41667%; /*10px/960*/}
 }
 
 /*Mobile Portrait Size to Mobile Landscape Size (device and browsers)*/
 @media only screen and (max-width: 546px){
-	#wrapper{background-color: #d593ff;}
+	/*#wrapper{background-color: #d593ff;}*/
 	#navigation li{ width: 100%; float: none;}
-	#cta{ margin-left: 10px; margin-right: 10px;}
+	#cta{ margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	#map img{margin-left: /520833%; /*5px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	#home{margin-left: 10.41667%; /*10px/960*/}
 	ol img{ float: right;}
-	ol img{margin-top: 10px; margin-bottom: 30px; margin-right: 10px;}
-	ol li{margin-left: 10px; margin-right: 10px;}
+	ol img{margin-top: 10.41667%; /*10px/960*/ margin-bottom: 3.125%; /*30px/960*/ 10.41667%; /*10px/960*/}
+	ol li{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
 	.tagline{display: none;}
-	section{-moz-column-count: 1; margin-left: 10px; margin-right: 10px;}
-	footer{margin-left: 10px; margin-right: 10px;}
-	h3{margin-left: 10px;}
-	#home{margin-left: 10px;}
+	section{-moz-column-count: 1; margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	footer{margin-left: 10.41667%; /*10px/960*/ margin-right: 10.41667%; /*10px/960*/}
+	h3{margin-left: 10.41667%; /*10px/960*/}
 }
 
 
