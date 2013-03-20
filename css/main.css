@@ -65,6 +65,7 @@ ol li{
 ol img{
 	border: 10px inset #999;
 	box-shadow: 10px 10px 10px #666;
+	
 
 }
 
@@ -80,7 +81,7 @@ ol img{
 
 #navigation ul{
 	list-style-type: none;
-	width: 50%; /*480px/960*/
+	width: 90%; 
 	padding: 3.125%; /*15px/480*/
 	margin: 0 auto;
 	overflow: hidden;
@@ -95,7 +96,7 @@ ol img{
 	text-decoration: none;
 	color: #304969;
 	display: block;
-	height: 6.25%; /*30px/480*/
+	height: 30px;
 	line-height: 30px;
 	text-align: center;
 	border: 5px groove olive;
@@ -132,7 +133,7 @@ ol img{
 	border: 10px ridge #fff;
 	display: block;
 	height: 80px;
-	width: 100px;
+	width: 100px
 	border-radius: 10px;
 	box-shadow: 5px 5px 5px #666;
 	outline: 0;
@@ -151,6 +152,10 @@ ol img{
 	border-color: orange;
 }
 
+img{
+max-width: 100%;
+}
+
 /*-------------Div ID's--------------*/
 
 #header{
@@ -160,11 +165,11 @@ ol img{
 	padding: 1.5626%; /*15px/960*/
 }
 
-#tagline p{
-	font-size: 1.5em; /*24px*/
-	color: #682412;
-	font-weight: bold;
+.tagline{
+	font-size: 24px;
 	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #682412;
 	line-height: 8%;
 	padding: 1.5625%; /*15px/960*/
 	text-shadow: 2px 4px 2px #682412;
@@ -179,8 +184,9 @@ ol img{
 /*-------------------Call to Action Area-------------------*/
 
 #cta{
-background-color: olive;
-margin-bottom: 20px;
+	background-color: olive;
+	margin-bottom: 20px;
+	height: 200px;
 }
 
 /* button 
@@ -244,6 +250,32 @@ margin-bottom: 20px;
 	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
 	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
 }
+
+/*Tablet Portrait size to standard 960 (devices and browsers)*/
+@media only screen and (min-width: 768px) and (max-width: 959px){
+}
+
+/*Mobile Landscape Size to Tablet Portrait (device and browsers)*/
+@media only screen and (min-width: 545px) and (max-width: 767px){
+	#wrapper{background-color: #ff7743;}
+}
+
+/*Mobile Portrait Size to Mobile Landscape Size (device and browsers)*/
+@media only screen and (max-width: 546px){
+	#wrapper{background-color: #d593ff;}
+	#navigation li{ width: 100%; float: none;}
+	#cta{ margin-left: 10px; margin-right: 10px;}
+	ol img{ float: right;}
+	ol img{margin-top: 10px; margin-bottom: 30px; margin-right: 10px;}
+	ol li{margin-left: 10px; margin-right: 10px;}
+	.tagline{display: none;}
+	section{-moz-column-count: 1; margin-left: 10px; margin-right: 10px;}
+	footer{margin-left: 10px; margin-right: 10px;}
+	h3{margin-left: 10px;}
+	#home{margin-left: 10px;}
+}
+
+
 
 
 
