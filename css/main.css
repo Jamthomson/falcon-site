@@ -182,11 +182,38 @@ max-width: 100%;
 #cta{
 	background-color: olive;
 	margin-bottom: 20px;
-	height: 200px;
+	height: 500px;
+	width: 100%;
+}
+
+caption{
+	font-size: 1.875em; /*30px*/
+	font-family: "Gabriela", Helvetica, Arial, sans-serif;
+	padding: 1.5625%; /*15px/960*/	
+}
+
+td{
+	border: 2px solid black;
+	padding: 10px;
+	width: 100%;
+}
+
+table{
+	border-collapse: collapse;
+	border: 2px solid black;
+	width: 90%;
+	margin:0 auto;
+}
+
+th{
+	text-align: left;
+	background-image: url(../images/background1.jpg);
+	color: black;
+	padding: 0.2em;
 }
 
 /* -------------------------Button------------------------------ */
-.button {
+/*.button {
 	display: inline-block;
 	display: inline;
 	vertical-align: baseline;
@@ -196,7 +223,7 @@ max-width: 100%;
 	text-align: center;
 	text-decoration: none;
 	font: .875em/100% Arial, Helvetica, sans-serif; /*14px*/
-	padding: .5em 2em .55em;
+	/*padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -228,7 +255,7 @@ max-width: 100%;
 }
 
 /*--------------------Button Color Orange-----------------------*/
-.orange {
+/*.orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
 	background: #f78d1d;
