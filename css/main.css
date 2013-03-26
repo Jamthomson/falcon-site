@@ -182,7 +182,7 @@ max-width: 100%;
 #cta{
 	background-color: olive;
 	margin-bottom: 20px;
-	height: 500px;
+	height: 950px;
 	width: 100%;
 }
 
@@ -207,13 +207,31 @@ table{
 
 th{
 	text-align: left;
-	background-image: url(../images/background1.jpg);
+	border: 2px solid black;
+	/*background-image: url(../images/background1.jpg);*/
+	background-color: #375318;
 	color: black;
 	padding: 0.2em;
 }
+.sign-up{
+	width: 75%;
+	margin: 0 auto;
+	padding: 20px;
+	border-color: #000;
+}
+
+input:focus{
+	background: #a2a931;
+}
+
+.fixedwidth{
+	display: block;
+	width: 240px;
+	float: left;
+}
 
 /* -------------------------Button------------------------------ */
-/*.button {
+.button {
 	display: inline-block;
 	display: inline;
 	vertical-align: baseline;
@@ -223,7 +241,7 @@ th{
 	text-align: center;
 	text-decoration: none;
 	font: .875em/100% Arial, Helvetica, sans-serif; /*14px*/
-	/*padding: .5em 2em .55em;
+	padding: .5em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -255,7 +273,7 @@ th{
 }
 
 /*--------------------Button Color Orange-----------------------*/
-/*.orange {
+.orange {
 	color: #fef4e9;
 	border: solid 1px #da7c0c;
 	background: #f78d1d;
